@@ -7,9 +7,11 @@
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 			crossorigin="anonymous"
 		/>
+		<link href="/calendar.css" rel="stylesheet"/>
 	</head>
 
 	<body>
+			
 		<div
 			class="card"
 			style="background-color:#333333;  border: 4px solid  #333333; font-size: 4rem; width: 100%; align-content: center;"
@@ -23,9 +25,9 @@
 				scale="0"
 			/>
 		</div>
-
+		
 		<div id="main" style="display:none;">
-			<div class="btn-dark" style="font-size: 8rem">Profilim</div>
+			<div class="btn-dark" style="font-size: 8rem" hidden>Profilim</div>
 			<div class="card" style="padding:3%; font-size:3rem;">
 				<h1 style="font-size: unset; font-size: 5.5rem;">
 					Compec Üye Sayfasına HOŞGELDİN: <br />
@@ -35,12 +37,11 @@
                     TANIŞMA ÇAYIMIZIN YERİ VE TARİHİ DEĞİŞTİ. 
                     26 EYLÜL PERŞEMBE GÜNÜ - GARANTİ KÜLTÜR MERKEZİ, UÇAKSAVAR KAMPÜSÜ - 18.00
                   </div>
+				 <div class= "alert alert-success">
+						Eğer whatsapp duyuru gruplarına alınmadıysanız aşağıdaki sohbet grubuna girip yöneticilere mesaj atabilirsiniz. <br>
+						<a href="https://chat.whatsapp.com/H6U0vXj2ONVIGSZvZgW61e">Whatsapp Grup Linkimiz</a>
+				 </div> 
 				  
-				  <p>
-					  Eğer whatsapp duyuru gruplarına alınmadıysanız aşağıdaki sohbet grubuna girip yöneticilere mesaj atabilirsiniz. <br>
-					<a href="https://chat.whatsapp.com/H6U0vXj2ONVIGSZvZgW61e">Whatsapp Grup Linkimiz</a>
-
-				  </p>
 				<p>
 					Buralar zaman içerisinde kulüp ile ilgili içeriklerinle
 					dolacak.
@@ -54,26 +55,7 @@
 				<hr />
 				<div
 					class="card"
-					style="padding: 3% ; background-color: rgba(24, 194, 206, 0.37);border-radius: 20px;margin-bottom: 5%;"
-				>
-					<h3 style="font-size: unset; font-size: 4.5rem;">
-						Alt Kurullar
-					</h3>
-
-					<ol style="font-size:unset; font-size:3rem;">
-						<li>DevTeam</li>
-
-						<li>Dijital Girişimcilik</li>
-						<li>Teknoloji</li>
-						<li>PR</li>
-						<li>İç İletişim</li>
-						<li>Kurumsal İletişim</li>
-						<li>BBÖ</li>
-					</ol>
-				</div>
-				<div
-					class="card"
-					style="padding:3%; background-color:rgba(44, 24, 206, 0.37); border-radius: 20px;margin-bottom: 5%;"
+					style="padding:3%; background-color:rgba(226, 130, 19, 0.37); border-radius: 20px;margin-bottom: 5%;"
 				>
 					<h3 style="font-size: unset; font-size: 4.5rem;">
 						Yaklaşan Etkinlikler
@@ -84,27 +66,27 @@
 							class="col-md-4"
 							style="font-size:unset; font-size: 3rem !important;"
 						>
-							17-19 Eylül
+						<del>17-19 Eylül</del>	
 						</h3>
 						<h3
 							class="col-md-8"
 							style="font-size:unset; font-size: 3rem !important;"
 						>
-							Oryantasyon Günleri
+							<del>Oryantasyon Günleri</del>
 						</h3>
 					</div>
-					<div class="row">
+					<div class="row" style="background-color: rgba(255, 73, 17, 0.1)">
 						<h3
 							class="col-md-4"
-							style="font-size:unset; font-size: 3rem !important;"
+							style="font-size:unset; font-size: 3rem !important; color: #c71919"
 						>
 							26 Eylül
 						</h3>
 						<h3
 							class="col-md-8"
-							style="font-size:unset; font-size: 3rem !important;"
+							style="font-size:unset; font-size: 3rem !important; color: #c71919"
 						>
-							Tanışma Çayı - Garanti Kültür Merkezi - 18.00 
+							Tanışma Çayı 18.00  
 						</h3>
 					</div>
 
@@ -182,16 +164,36 @@
 				</div>
 				<div
 					class="card"
+					style="padding: 3% ; background-color: rgba(24, 194, 206, 0.37);border-radius: 20px;margin-bottom: 5%;"
+				>
+					<h3 style="font-size: unset; font-size: 4.5rem;">
+						Alt Kurullar
+					</h3>
+
+					<ol style="font-size:unset; font-size:3rem;">
+						<li>DevTeam</li>
+
+						<li>Dijital Girişimcilik</li>
+						<li>Teknoloji</li>
+						<li>PR</li>
+						<li>İç İletişim</li>
+						<li>Kurumsal İletişim</li>
+						<li>BBÖ</li>
+					</ol>
+				</div>
+				
+				<div
+					class="card"
 					style="background-color:rgba(9, 41, 129, 0.233); padding: 3%;border-radius: 20px;"
 				>
 					<h3 style="font-size: unset; font-size: 4.5rem;">
 						Faydalı Linkler
 					</h3>
-					<ul style="font-size:unset; font-size:3rem;">
-						<li><a href="https://compec.org">Compec</a></li>
+					<ul style="font-size:unset; font-size:3rem; color:black!important;">
+						<li><a href="https://compec.org">Compec.org</a></li>
 						<li>
-							<a href="https://bit.ly/efounder19kayit"
-								>Efounder Zirve Kayıt Formu</a
+							<a href="https://efounder.org"
+								>Efounder.org</a
 							>
 						</li>
 					</ul>
@@ -274,5 +276,6 @@
 					})
 			}
 		</script>
+		<script src="/calendar.js"></script>
 	</body>
 </html>
